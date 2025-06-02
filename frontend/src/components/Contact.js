@@ -100,7 +100,7 @@ const Contact = ({ language }) => {
   };
 
   const handleClaraWhatsApp = () => {
-    window.open('https://wa.me/5551995243454', '_blank');
+    window.open('https://wa.me/555199524​3454', '_blank');
   };
 
   const handleScheduleDemo = () => {
