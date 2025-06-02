@@ -4,7 +4,7 @@ import { Heart, Users, TrendingUp, Database } from 'lucide-react';
 
 const UseCases = ({ language }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const isInView = useInView(ref, { once: true, threshold: 0.1 });
 
   const content = {
     pt: {
