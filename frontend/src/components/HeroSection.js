@@ -127,6 +127,7 @@ const HeroSection = ({ language }) => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={handleScheduleDemo}
               className="group bg-gradient-to-r from-coral-500 to-orange-500 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-2xl hover:shadow-coral-500/25 transition-all duration-300 flex items-center space-x-2"
             >
               <Calendar size={20} />
