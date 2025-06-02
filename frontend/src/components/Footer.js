@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MessageCircle, Linkedin, Mail, MapPin, Phone, ExternalLink } from 'lucide-react';
+import KoaiLogo from './KoaiLogo';
 
 const Footer = ({ language }) => {
   const content = {
