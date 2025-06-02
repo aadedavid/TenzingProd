@@ -273,9 +273,10 @@ const Contact = ({ language }) => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={handleClaraWhatsApp}
                 className="bg-white text-coral-500 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
               >
-                {language === 'pt' ? 'Testar Agora' : 'Test Now'}
+                {language === 'pt' ? 'Testar Clara.AI Agora' : 'Test Clara.AI Now'}
               </motion.button>
             </motion.div>
 
