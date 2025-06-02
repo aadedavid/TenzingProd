@@ -14,7 +14,7 @@ const Team = ({ language }) => {
         {
           name: "Alexandre Dedavid",
           role: "CTO & Co-fundador",
-          image: "/api/placeholder/300/300",
+          image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Profissional com mais de 20 anos em tecnologia, BI e gestão de produtos, com atuação executiva em dados e analytics em empresas globais. Consultor em estratégia de dados com experiência internacional.",
           expertise: ["Data Strategy", "Business Intelligence", "Product Management"],
           linkedin: "#",
@@ -23,7 +23,7 @@ const Team = ({ language }) => {
         {
           name: "Andréa Krug", 
           role: "CEO & Co-fundadora",
-          image: "/api/placeholder/300/300",
+          image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Profissional com mais de 35 anos em RH, sendo 20 em posições executivas. Atuação estratégica na América Latina, com experiência em start ups, encerramentos e grandes fusões.",
           expertise: ["Strategic HR", "Leadership", "Organizational Change"],
           linkedin: "#",
@@ -32,7 +32,7 @@ const Team = ({ language }) => {
         {
           name: "Carolina Giachini",
           role: "CPO & Co-fundadora", 
-          image: "/api/placeholder/300/300",
+          image: "https://images.pexels.com/photos/3777931/pexels-photo-3777931.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Consultora há mais de 5 anos em saúde mental com base em neurociência, estresse e ansiedade. Atuação em escolas e empresas, com foco no desenvolvimento humano e socioemocional.",
           expertise: ["Mental Health", "Neuroscience", "Human Development"],
           linkedin: "#",
@@ -41,7 +41,7 @@ const Team = ({ language }) => {
         {
           name: "Fabio Makita",
           role: "Chief Innovation Officer",
-          image: "/api/placeholder/300/300",
+          image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Executivo com 24 anos de experiência em inovação tecnológica e desenvolvimento de novos negócios. Atuou na criação do primeiro Corporate Venture Capital do Brasil e liderou programas com startups.",
           expertise: ["Innovation", "Corporate Venture", "Technology Strategy"],
           linkedin: "#",
@@ -50,7 +50,7 @@ const Team = ({ language }) => {
         {
           name: "Guilherme Krug",
           role: "Chief Legal Officer",
-          image: "/api/placeholder/300/300",
+          image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Advogado com 23 anos de experiência em empresas e escritórios de grande porte. Especialista em direito civil, trabalhista, compliance, LGPD e gestão de equipes.",
           expertise: ["Corporate Law", "Compliance", "LGPD/GDPR"],
           linkedin: "#",
