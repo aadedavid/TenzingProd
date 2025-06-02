@@ -22,9 +22,9 @@ const UseCases = ({ language }) => {
         },
         {
           icon: Users,
-          title: "AAC em Treinamentos",
+          title: "Açuana em Treinamentos",
           subtitle: "Líderes com IA Copiloto",
-          description: "O agente AAC atua como copiloto inteligente para líderes, oferecendo orientação em tempo real, sugestões de desenvolvimento de equipe e insights baseados em dados comportamentais.",
+          description: "A agente Açuana atua como copiloto inteligente para líderes, oferecendo orientação em tempo real, sugestões de desenvolvimento de equipe e insights baseados em dados comportamentais.",
           benefits: ["Liderança mais eficaz", "Desenvolvimento contínuo", "Decisões baseadas em dados"],
           color: "from-blue-500 to-indigo-500",
           image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg"
