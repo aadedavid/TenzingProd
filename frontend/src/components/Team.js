@@ -173,9 +173,11 @@ const Team = ({ language }) => {
               {/* Profile Image */}
               <div className="relative mb-6">
                 <div className="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-teal-500 p-1">
-                  <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center text-2xl font-bold text-gray-600">
-                    {member.name.split(' ').map(n => n[0]).join('')}
-                  </div>
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full rounded-full object-cover"
+                  />
                 </div>
                 <motion.div
                   whileHover={{ scale: 1.1 }}
