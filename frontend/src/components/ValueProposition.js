@@ -56,7 +56,7 @@ const ValueProposition = ({ language }) => {
         {
           icon: Compass,
           title: "AI-Powered Mentorship & Development",
-          description: "Specialized agents like AAC and Clara offer personalized guidance, accelerating professional and personal growth.",
+          description: "Specialized agents like Açuana and Clara offer personalized guidance, accelerating professional and personal growth.",
           color: "from-blue-500 to-cyan-500"
         },
         {
