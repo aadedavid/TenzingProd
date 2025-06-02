@@ -17,7 +17,7 @@ const Team = ({ language }) => {
           image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Profissional com mais de 20 anos em tecnologia, BI e gestão de produtos, com atuação executiva em dados e analytics em empresas globais. Consultor em estratégia de dados com experiência internacional.",
           expertise: ["Data Strategy", "Business Intelligence", "Product Management"],
-          linkedin: "#",
+          linkedin: "https://www.linkedin.com/in/aadedavid/",
           education: "Ciência da Computação (UFRGS) e Pós em Data Analytics (UFRJ)"
         },
         {
@@ -26,7 +26,7 @@ const Team = ({ language }) => {
           image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Profissional com mais de 35 anos em RH, sendo 20 em posições executivas. Atuação estratégica na América Latina, com experiência em start ups, encerramentos e grandes fusões.",
           expertise: ["Strategic HR", "Leadership", "Organizational Change"],
-          linkedin: "#",
+          linkedin: "https://www.linkedin.com/in/andrea-krug/",
           education: "Especialização em Gestão da Mudança e Modelos de RH Compartilhados"
         },
         {
@@ -35,7 +35,7 @@ const Team = ({ language }) => {
           image: "https://images.pexels.com/photos/3777931/pexels-photo-3777931.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Consultora há mais de 5 anos em saúde mental com base em neurociência, estresse e ansiedade. Atuação em escolas e empresas, com foco no desenvolvimento humano e socioemocional.",
           expertise: ["Mental Health", "Neuroscience", "Human Development"],
-          linkedin: "#",
+          linkedin: "https://www.linkedin.com/in/carolina-giachini-b36344239/",
           education: "Co-fundadora da Equinox, formação em Farmácia e especialização em saúde mental corporativa"
         },
         {
@@ -44,7 +44,7 @@ const Team = ({ language }) => {
           image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Executivo com 24 anos de experiência em inovação tecnológica e desenvolvimento de novos negócios. Atuou na criação do primeiro Corporate Venture Capital do Brasil e liderou programas com startups.",
           expertise: ["Innovation", "Corporate Venture", "Technology Strategy"],
-          linkedin: "#",
+          linkedin: "https://www.linkedin.com/in/fabiomakitakiyan/",
           education: "Liderança em projetos de políticas públicas de inovação"
         },
         {
@@ -53,7 +53,7 @@ const Team = ({ language }) => {
           image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Advogado com 23 anos de experiência em empresas e escritórios de grande porte. Especialista em direito civil, trabalhista, compliance, LGPD e gestão de equipes.",
           expertise: ["Corporate Law", "Compliance", "LGPD/GDPR"],
-          linkedin: "#",
+          linkedin: "https://www.linkedin.com/in/guilhermekrug/",
           education: "Participação em fusões, reestruturações e projetos de redução de passivos"
         }
       ]
