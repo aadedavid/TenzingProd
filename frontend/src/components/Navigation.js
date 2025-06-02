@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Globe } from 'lucide-react';
+import KoaiLogo from './KoaiLogo';
 
 const Navigation = ({ language, setLanguage }) => {
   const [isOpen, setIsOpen] = useState(false);
