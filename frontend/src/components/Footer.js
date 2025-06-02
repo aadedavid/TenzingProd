@@ -160,7 +160,7 @@ const Footer = ({ language }) => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={handleWhatsApp}
+              onClick={() => window.open('https://wa.me/5551995243454', '_blank')}
               className="bg-gradient-to-r from-coral-500 to-orange-500 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 inline-flex items-center space-x-2"
             >
               <MessageCircle size={20} />
