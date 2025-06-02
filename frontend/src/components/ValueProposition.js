@@ -167,6 +167,7 @@ const ValueProposition = ({ language }) => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => window.open('https://wa.me/5551995243454', '_blank')}
             className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300"
           >
             {language === 'pt' ? 'Teste Clara.AI Agora' : 'Test Clara.AI Now'}
