@@ -32,6 +32,14 @@ const HeroSection = ({ language }) => {
     window.open('https://wa.me/5521988341245', '_blank');
   };
 
+  const handleClaraWhatsApp = () => {
+    window.open('https://wa.me/5551995243454', '_blank');
+  };
+
+  const handleScheduleDemo = () => {
+    window.open('https://calendar.app.google/pug4TSYUPhiMCvzo6', '_blank');
+  };
+
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
