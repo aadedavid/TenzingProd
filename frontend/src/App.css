@@ -1,38 +1,90 @@
-.App {
-    text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom color classes for coral */
+.text-coral-400 {
+  color: #ff7f69;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+.bg-coral-400 {
+  background-color: #ff7f69;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+.bg-coral-500 {
+  background-color: #ff6f61;
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.from-coral-400 {
+  --tw-gradient-from: #ff7f69;
 }
 
-.App-link {
-    color: #61dafb;
+.from-coral-500 {
+  --tw-gradient-from: #ff6f61;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.to-coral-500 {
+  --tw-gradient-to: #ff6f61;
+}
+
+.border-coral-500 {
+  border-color: #ff6f61;
+}
+
+.shadow-coral-500\/25 {
+  --tw-shadow-color: rgba(255, 111, 97, 0.25);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+/* Custom smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom backdrop blur for older browsers */
+.backdrop-blur-md {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Gradient text support */
+.bg-clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+.float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #234B65, #9BC5B6);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #1a3a52, #7fb19f);
 }
