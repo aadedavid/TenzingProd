@@ -68,7 +68,7 @@ const Team = ({ language }) => {
           image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Professional with over 20 years in technology, BI and product management, with executive experience in data and analytics in global companies. Data strategy consultant with international experience.",
           expertise: ["Data Strategy", "Business Intelligence", "Product Management"],
-          linkedin: "#",
+          linkedin: "https://www.linkedin.com/in/aadedavid/",
           education: "Computer Science (UFRGS) and Post-grad in Data Analytics (UFRJ)"
         },
         {
@@ -77,7 +77,7 @@ const Team = ({ language }) => {
           image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Professional with over 35 years in HR, with 20 in executive positions. Strategic work in Latin America, with experience in startups, closures and major mergers.",
           expertise: ["Strategic HR", "Leadership", "Organizational Change"],
-          linkedin: "#",
+          linkedin: "https://www.linkedin.com/in/andrea-krug/",
           education: "Specialization in Change Management and Shared HR Models"
         },
         {
@@ -86,7 +86,7 @@ const Team = ({ language }) => {
           image: "https://images.pexels.com/photos/3777931/pexels-photo-3777931.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop", 
           description: "Consultant for over 5 years in mental health based on neuroscience, stress and anxiety. Work in schools and companies, focusing on human and socioemotional development.",
           expertise: ["Mental Health", "Neuroscience", "Human Development"],
-          linkedin: "#",
+          linkedin: "https://www.linkedin.com/in/carolina-giachini-b36344239/",
           education: "Co-founder of Equinox, degree in Pharmacy and specialization in corporate mental health"
         },
         {
@@ -95,7 +95,7 @@ const Team = ({ language }) => {
           image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Executive with 24 years of experience in technological innovation and new business development. Worked on creating Brazil's first Corporate Venture Capital and led startup programs.",
           expertise: ["Innovation", "Corporate Venture", "Technology Strategy"],
-          linkedin: "#",
+          linkedin: "https://www.linkedin.com/in/fabiomakitakiyan/",
           education: "Leadership in public policy innovation projects"
         },
         {
@@ -104,7 +104,7 @@ const Team = ({ language }) => {
           image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
           description: "Lawyer with 23 years of experience in large companies and law firms. Specialist in civil law, labor law, compliance, GDPR and team management.",
           expertise: ["Corporate Law", "Compliance", "LGPD/GDPR"],
-          linkedin: "#",
+          linkedin: "https://www.linkedin.com/in/guilhermekrug/",
           education: "Participation in mergers, restructuring and liability reduction projects"
         }
       ]
