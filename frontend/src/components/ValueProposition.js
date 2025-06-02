@@ -20,7 +20,7 @@ const ValueProposition = ({ language }) => {
         {
           icon: Compass,
           title: "Mentoria e Desenvolvimento com IA",
-          description: "Agentes especializados como AAC e Clara oferecem orientação personalizada, acelerando o crescimento profissional e pessoal.",
+          description: "Agentes especializados como Açuana e Clara oferecem orientação personalizada, acelerando o crescimento profissional e pessoal.",
           color: "from-blue-500 to-cyan-500"
         },
         {
