@@ -43,11 +43,9 @@ const Navigation = ({ language, setLanguage }) => {
           {/* Logo */}
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="flex items-center space-x-2"
+            className="flex items-center space-x-3"
           >
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-teal-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">K</span>
-            </div>
+            <KoaiLogo size={32} />
             <span className="text-xl font-bold text-gray-900">{content[language].brand}</span>
           </motion.div>
 
