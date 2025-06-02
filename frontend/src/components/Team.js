@@ -65,7 +65,7 @@ const Team = ({ language }) => {
         {
           name: "Alexandre Dedavid",
           role: "CTO & Co-founder",
-          image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+          image: "https://images.pexels.com/photos/32294411/pexels-photo-32294411.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
           description: "Professional with over 20 years in technology, BI and product management, with executive experience in data and analytics in global companies. Data strategy consultant with international experience.",
           expertise: ["Data Strategy", "Business Intelligence", "Product Management"],
           linkedin: "https://www.linkedin.com/in/aadedavid/",
@@ -74,7 +74,7 @@ const Team = ({ language }) => {
         {
           name: "Andréa Krug",
           role: "CEO & Co-founder", 
-          image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+          image: "https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
           description: "Professional with over 35 years in HR, with 20 in executive positions. Strategic work in Latin America, with experience in startups, closures and major mergers.",
           expertise: ["Strategic HR", "Leadership", "Organizational Change"],
           linkedin: "https://www.linkedin.com/in/andrea-krug/",
@@ -83,7 +83,7 @@ const Team = ({ language }) => {
         {
           name: "Carolina Giachini",
           role: "CPO & Co-founder",
-          image: "https://images.pexels.com/photos/3777931/pexels-photo-3777931.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop", 
+          image: "https://images.pexels.com/photos/29598524/pexels-photo-29598524.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face", 
           description: "Consultant for over 5 years in mental health based on neuroscience, stress and anxiety. Work in schools and companies, focusing on human and socioemotional development.",
           expertise: ["Mental Health", "Neuroscience", "Human Development"],
           linkedin: "https://www.linkedin.com/in/carolina-giachini-b36344239/",
@@ -92,7 +92,7 @@ const Team = ({ language }) => {
         {
           name: "Fabio Makita",
           role: "Chief Innovation Officer",
-          image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+          image: "https://images.pexels.com/photos/17311570/pexels-photo-17311570.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
           description: "Executive with 24 years of experience in technological innovation and new business development. Worked on creating Brazil's first Corporate Venture Capital and led startup programs.",
           expertise: ["Innovation", "Corporate Venture", "Technology Strategy"],
           linkedin: "https://www.linkedin.com/in/fabiomakitakiyan/",
@@ -101,7 +101,7 @@ const Team = ({ language }) => {
         {
           name: "Guilherme Krug",
           role: "Chief Legal Officer",
-          image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+          image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMG1hbiUyMHN1aXQlMjB0aWV8ZW58MHx8fHwxNzQ4ODc0MDgzfDA&ixlib=rb-4.1.0&q=85&w=300&h=300&fit=crop&crop=face",
           description: "Lawyer with 23 years of experience in large companies and law firms. Specialist in civil law, labor law, compliance, GDPR and team management.",
           expertise: ["Corporate Law", "Compliance", "LGPD/GDPR"],
           linkedin: "https://www.linkedin.com/in/guilhermekrug/",
