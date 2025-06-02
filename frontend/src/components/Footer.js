@@ -183,9 +183,7 @@ const Footer = ({ language }) => {
               className="mb-6"
             >
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-teal-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">K</span>
-                </div>
+                <KoaiLogo size={40} />
                 <span className="text-2xl font-bold">{content[language].brand.name}</span>
               </div>
               <p className="text-gray-300 text-lg mb-6">
