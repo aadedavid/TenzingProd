@@ -304,6 +304,7 @@ const Contact = ({ language }) => {
               <motion.div
                 variants={itemVariants}
                 whileHover={{ scale: 1.02 }}
+                onClick={handleScheduleDemo}
                 className="bg-blue-50 border-2 border-blue-200 rounded-2xl p-6 cursor-pointer hover:bg-blue-100 transition-colors"
               >
                 <div className="bg-blue-500 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
