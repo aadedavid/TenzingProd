@@ -83,7 +83,7 @@ const Footer = ({ language }) => {
           title: "Solutions",
           items: [
             { label: "Clara.AI - Mental Health", href: "#" },
-            { label: "AAC - Mentorship", href: "#" },
+            { label: "Açuana - Mentorship", href: "#" },
             { label: "Martina - Employee Experience", href: "#" },
             { label: "NR1 Diagnosis", href: "#" }
           ]
