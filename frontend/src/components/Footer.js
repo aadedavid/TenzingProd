@@ -24,7 +24,7 @@ const Footer = ({ language }) => {
           title: "Soluções",
           items: [
             { label: "Clara.AI - Saúde Mental", href: "#" },
-            { label: "AAC - Mentoria", href: "#" },
+            { label: "Açuana - Mentoria", href: "#" },
             { label: "Martina - Employee Experience", href: "#" },
             { label: "Diagnóstico NR1", href: "#" }
           ]
