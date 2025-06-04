@@ -1,30 +1,30 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Globe } from 'lucide-react';
-import KoaiLogo from './KoaiLogo';
+import TenzingLogo from './TenzingLogo';
 
 const Navigation = ({ language, setLanguage }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const content = {
     pt: {
-      brand: 'Koai',
-      menu: ['Início', 'Proposta', 'Casos de Uso', 'Tecnologia', 'Equipe', 'Contato'],
-      cta: 'Teste Clara.AI'
+      brand: 'Tenzing',
+      menu: ['Início', 'Sherpas Digitais', 'Jornada Libertada', 'Casos', 'Metodologia', 'Basecamp'],
+      cta: 'Iniciar Expedição'
     },
     en: {
-      brand: 'Koai',
-      menu: ['Home', 'Value Prop', 'Use Cases', 'Technology', 'Team', 'Contact'],
-      cta: 'Test Clara.AI'
+      brand: 'Tenzing', 
+      menu: ['Home', 'Digital Sherpas', 'Liberated Journey', 'Cases', 'Methodology', 'Basecamp'],
+      cta: 'Start Expedition'
     }
   };
 
-  const handleClaraWhatsApp = () => {
-    window.open('https://wa.me/5551995243454', '_blank');
+  const handleStartExpedition = () => {
+    window.open('https://calendar.app.google/pug4TSYUPhiMCvzo6', '_blank');
   };
 
   const scrollToSection = (index) => {
-    const sections = ['hero', 'value-prop', 'use-cases', 'technology', 'team', 'contact'];
+    const sections = ['hero', 'sherpas', 'journey', 'cases', 'methodology', 'team'];
     const element = document.getElementById(sections[index]);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -36,7 +36,7 @@ const Navigation = ({ language, setLanguage }) => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-200"
+      className="fixed top-0 w-full bg-slate-900/95 backdrop-blur-md z-50 border-b border-slate-700/50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
@@ -45,8 +45,8 @@ const Navigation = ({ language, setLanguage }) => {
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-3"
           >
-            <KoaiLogo size={32} />
-            <span className="text-xl font-bold text-gray-900">{content[language].brand}</span>
+            <TenzingLogo size={36} />
+            <span className="text-xl font-bold text-white">{content[language].brand}</span>
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -57,7 +57,7 @@ const Navigation = ({ language, setLanguage }) => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => scrollToSection(index)}
-                className="text-gray-600 hover:text-blue-600 font-medium transition-colors"
+                className="text-slate-300 hover:text-orange-400 font-medium transition-colors"
               >
                 {item}
               </motion.button>
@@ -68,7 +68,7 @@ const Navigation = ({ language, setLanguage }) => {
           <div className="hidden md:flex items-center space-x-4">
             <button
               onClick={() => setLanguage(language === 'pt' ? 'en' : 'pt')}
-              className="flex items-center space-x-1 text-gray-600 hover:text-blue-600"
+              className="flex items-center space-x-1 text-slate-300 hover:text-orange-400"
             >
               <Globe size={16} />
               <span className="text-sm font-medium">{language === 'pt' ? 'EN' : 'PT'}</span>
@@ -76,8 +76,8 @@ const Navigation = ({ language, setLanguage }) => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={handleClaraWhatsApp}
-              className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-6 py-2 rounded-full font-medium shadow-lg hover:shadow-xl transition-shadow"
+              onClick={handleStartExpedition}
+              className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2 rounded-full font-medium shadow-lg hover:shadow-xl transition-shadow"
             >
               {content[language].cta}
             </motion.button>
@@ -87,7 +87,7 @@ const Navigation = ({ language, setLanguage }) => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-600 hover:text-blue-600"
+              className="text-slate-300 hover:text-orange-400"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -100,28 +100,28 @@ const Navigation = ({ language, setLanguage }) => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="md:hidden py-4 border-t border-gray-200"
+            className="md:hidden py-4 border-t border-slate-700"
           >
             {content[language].menu.map((item, index) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(index)}
-                className="block w-full text-left px-4 py-2 text-gray-600 hover:text-blue-600 hover:bg-gray-50"
+                className="block w-full text-left px-4 py-2 text-slate-300 hover:text-orange-400 hover:bg-slate-800"
               >
                 {item}
               </button>
             ))}
-            <div className="px-4 pt-4 border-t border-gray-200 mt-4">
+            <div className="px-4 pt-4 border-t border-slate-700 mt-4">
               <button
                 onClick={() => setLanguage(language === 'pt' ? 'en' : 'pt')}
-                className="flex items-center space-x-2 text-gray-600 hover:text-blue-600 mb-4"
+                className="flex items-center space-x-2 text-slate-300 hover:text-orange-400 mb-4"
               >
                 <Globe size={16} />
                 <span>{language === 'pt' ? 'English' : 'Português'}</span>
               </button>
               <button 
-                onClick={handleClaraWhatsApp}
-                className="w-full bg-gradient-to-r from-blue-600 to-teal-600 text-white px-6 py-3 rounded-full font-medium"
+                onClick={handleStartExpedition}
+                className="w-full bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-3 rounded-full font-medium"
               >
                 {content[language].cta}
               </button>
