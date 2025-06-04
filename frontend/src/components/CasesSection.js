@@ -1,0 +1,269 @@
+import React, { useRef } from 'react';
+import { motion, useInView } from 'framer-motion';
+import { Building, Users, TrendingUp, Heart, Shield, Zap } from 'lucide-react';
+
+const CasesSection = ({ language }) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, threshold: 0.1 });
+
+  const content = {
+    pt: {
+      title: "Casos de Libertação",
+      subtitle: "Histórias reais de organizações que deixaram nossos Sherpas carregarem a mochila operacional",
+      cases: [
+        {
+          icon: Building,
+          company: "Fintech SaaS - 150 colaboradores",
+          challenge: "CEO gastava 4h/dia em processos de RH e não conseguia focar na estratégia de produto",
+          solution: "Implementamos Clara para bem-estar, Açuana para desenvolvimento e Atlas para insights",
+          results: [
+            "CEO recuperou 3h diárias para estratégia",
+            "35% melhoria no NPS interno",
+            "Redução de 50% em turnover voluntário",
+            "Lançamento de produto acelerado em 2 meses"
+          ],
+          testimonial: "Finalmente posso focar no que sei fazer: liderar e inovar. Nossos Sherpas cuidam de tudo que antes me tirava do jogo.",
+          author: "CEO da Fintech",
+          color: "from-blue-500 to-cyan-500"
+        },
+        {
+          icon: Users,
+          company: "Consultoria - 80 pessoas",
+          challenge: "Gestora de RH sobrecarregada com processos manuais e equipe desmotivada",
+          solution: "Martina para experiência do colaborador e Guardiã para compliance automático",
+          results: [
+            "70% redução em tickets de RH",
+            "Compliance 100% automatizado",
+            "Aumento de 40% em engajamento",
+            "RH focou em projetos estratégicos"
+          ],
+          testimonial: "Saí do modo 'bombeiro' para estrategista. Nossa equipe nunca esteve tão motivada e alinhada.",
+          author: "Head de RH",
+          color: "from-green-500 to-emerald-500"
+        },
+        {
+          icon: Heart,
+          company: "Indústria - 300 colaboradores",
+          challenge: "Altos índices de burnout, dificuldade em cumprir NR1 e processos manuais complexos",
+          solution: "Clara para saúde mental 24/7, Atlas para prevenção e Orquestrador para integração",
+          results: [
+            "60% redução em afastamentos por burnout",
+            "NR1 100% em compliance",
+            "Sistema de alertas preventivos funcionando",
+            "ROI de 300% em 6 meses"
+          ],
+          testimonial: "Transformamos nossa cultura de segurança e bem-estar. Os colaboradores se sentem verdadeiramente cuidados.",
+          author: "Diretor de Operações",
+          color: "from-red-500 to-pink-500"
+        }
+      ],
+      cta: {
+        title: "Pronto para Liberar Sua Organização?",
+        subtitle: "Agende uma conversa e descubra como nossos Sherpas podem carregar sua mochila operacional"
+      }
+    },
+    en: {
+      title: "Liberation Cases",
+      subtitle: "Real stories of organizations that let our Sherpas carry the operational backpack",
+      cases: [
+        {
+          icon: Building,
+          company: "SaaS Fintech - 150 employees",
+          challenge: "CEO spent 4h/day on HR processes and couldn't focus on product strategy",
+          solution: "Implemented Clara for wellbeing, Açuana for development and Atlas for insights",
+          results: [
+            "CEO recovered 3 daily hours for strategy",
+            "35% improvement in internal NPS",
+            "50% reduction in voluntary turnover",
+            "Product launch accelerated by 2 months"
+          ],
+          testimonial: "I can finally focus on what I do best: leading and innovating. Our Sherpas take care of everything that used to take me out of the game.",
+          author: "Fintech CEO",
+          color: "from-blue-500 to-cyan-500"
+        },
+        {
+          icon: Users,
+          company: "Consulting - 80 people",
+          challenge: "HR manager overwhelmed with manual processes and demotivated team",
+          solution: "Martina for employee experience and Guardian for automatic compliance",
+          results: [
+            "70% reduction in HR tickets",
+            "100% automated compliance",
+            "40% increase in engagement",
+            "HR focused on strategic projects"
+          ],
+          testimonial: "I went from 'firefighter' mode to strategist. Our team has never been so motivated and aligned.",
+          author: "Head of HR",
+          color: "from-green-500 to-emerald-500"
+        },
+        {
+          icon: Heart,
+          company: "Industry - 300 employees",
+          challenge: "High burnout rates, difficulty complying with regulations and complex manual processes",
+          solution: "Clara for 24/7 mental health, Atlas for prevention and Orchestrator for integration",
+          results: [
+            "60% reduction in burnout leave",
+            "100% regulatory compliance",
+            "Preventive alert system working",
+            "300% ROI in 6 months"
+          ],
+          testimonial: "We transformed our safety and wellbeing culture. Employees feel truly cared for.",
+          author: "Operations Director",
+          color: "from-red-500 to-pink-500"
+        }
+      ],
+      cta: {
+        title: "Ready to Liberate Your Organization?",
+        subtitle: "Schedule a conversation and discover how our Sherpas can carry your operational backpack"
+      }
+    }
+  };
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.3
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.8,
+        ease: "easeOut"
+      }
+    }
+  };
+
+  return (
+    <section id="cases" className="py-20 lg:py-32 bg-slate-900">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          ref={ref}
+          variants={containerVariants}
+          initial="hidden"
+          animate={isInView ? "visible" : "hidden"}
+          className="text-center mb-16"
+        >
+          <motion.h2
+            variants={itemVariants}
+            className="text-4xl md:text-5xl font-bold text-white mb-6"
+          >
+            {content[language].title}
+          </motion.h2>
+          <motion.p
+            variants={itemVariants}
+            className="text-xl text-slate-300 max-w-3xl mx-auto"
+          >
+            {content[language].subtitle}
+          </motion.p>
+        </motion.div>
+
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate={isInView ? "visible" : "hidden"}
+          className="space-y-12"
+        >
+          {content[language].cases.map((caseStudy, index) => (
+            <motion.div
+              key={index}
+              variants={itemVariants}
+              className="sherpa-glass rounded-3xl p-8 lg:p-12"
+            >
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                
+                {/* Company & Challenge */}
+                <div className="space-y-6">
+                  <div className="flex items-center space-x-4">
+                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${caseStudy.color} flex items-center justify-center`}>
+                      <caseStudy.icon className="w-6 h-6 text-white" />
+                    </div>
+                    <h3 className="text-xl font-bold text-white">{caseStudy.company}</h3>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-red-400 font-semibold mb-2">
+                      {language === 'pt' ? 'Desafio:' : 'Challenge:'}
+                    </h4>
+                    <p className="text-slate-300">{caseStudy.challenge}</p>
+                  </div>
+
+                  <div>
+                    <h4 className="text-orange-400 font-semibold mb-2">
+                      {language === 'pt' ? 'Solução:' : 'Solution:'}
+                    </h4>
+                    <p className="text-slate-300">{caseStudy.solution}</p>
+                  </div>
+                </div>
+
+                {/* Results */}
+                <div>
+                  <h4 className="text-green-400 font-semibold mb-4">
+                    {language === 'pt' ? 'Resultados:' : 'Results:'}
+                  </h4>
+                  <div className="space-y-3">
+                    {caseStudy.results.map((result, idx) => (
+                      <div key={idx} className="flex items-start space-x-3">
+                        <Zap className="w-4 h-4 text-green-400 mt-1 flex-shrink-0" />
+                        <span className="text-slate-300 text-sm">{result}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Testimonial */}
+                <div className="bg-slate-800/50 rounded-2xl p-6">
+                  <div className="mb-4">
+                    <svg className="w-8 h-8 text-orange-400 mb-2" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                    </svg>
+                  </div>
+                  <blockquote className="text-white italic mb-4">
+                    "{caseStudy.testimonial}"
+                  </blockquote>
+                  <cite className="text-orange-400 font-semibold">
+                    — {caseStudy.author}
+                  </cite>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
+
+        {/* CTA Section */}
+        <motion.div
+          variants={itemVariants}
+          initial="hidden"
+          animate={isInView ? "visible" : "hidden"}
+          className="text-center mt-16"
+        >
+          <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-3xl p-8 border border-orange-500/30">
+            <h3 className="text-3xl font-bold text-white mb-4">
+              {content[language].cta.title}
+            </h3>
+            <p className="text-slate-300 mb-8 text-lg">
+              {content[language].cta.subtitle}
+            </p>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => window.open('https://calendar.app.google/pug4TSYUPhiMCvzo6', '_blank')}
+              className="btn-sherpa-primary text-lg px-10 py-4"
+            >
+              {language === 'pt' ? 'Agendar Conversa Estratégica' : 'Schedule Strategic Conversation'}
+            </motion.button>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+};
+
+export default CasesSection;
