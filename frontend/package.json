@@ -1,6 +1,8 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "tenzing-sherpas-digitais",
+  "version": "1.0.0",
+  "description": "Tenzing - Sherpas Digitais que liberam sua jornada organizacional",
+  "homepage": "https://tenzing.com.br",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^2.2.4",
