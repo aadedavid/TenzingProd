@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Tenzing - Sherpas Digitais
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🏔️ **Somos os Sherpas Digitais que libertam líderes e times para focarem no que realmente importa: construir cultura, inspirar pessoas e criar resultados que transformam.**
 
-## Available Scripts
+## 🚀 Sobre o Projeto
 
-In the project directory, you can run:
+O **Tenzing** é uma plataforma de Sherpas Digitais especializados em carregar a "mochila operacional" das organizações, automatizando processos de RH e gestão para que líderes possam focar no estratégico.
 
-### `npm start`
+### Nossos Sherpas Especializados:
+- **Clara**: Sherpa de Bem-Estar (Saúde Mental & NR1)
+- **Açuana**: Sherpa de Desenvolvimento (Mentoria & Crescimento)
+- **Martina**: Sherpa de Experiência (Jornada do Colaborador)
+- **Atlas**: Sherpa de Insights (Analytics & Dados)
+- **Guardiã**: Sherpa de Compliance (LGPD & Auditoria)
+- **Orquestrador**: Sherpa de Integração (Multi-agentes)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💻 Tecnologias
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React 19, Framer Motion, TailwindCSS
+- **Componentes**: Headless UI, Lucide React
+- **Build**: Create React App
+- **Deploy**: Vercel
 
-### `npm test`
+## 🌐 Deploy
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este projeto está configurado para deploy automático no Vercel:
 
-### `npm run build`
+```bash
+# Build de produção
+npm run build
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Start local
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Domínio
+- **Produção**: [tenzing.com.br](https://tenzing.com.br)
+- **Staging**: Gerado automaticamente pelo Vercel
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📱 Contato
 
-### `npm run eject`
+- **WhatsApp Geral**: +55 (21) 98834-1245
+- **Clara.AI**: +55 (51) 99524-3454
+- **Email**: basecamp@tenzing.ai
+- **Localização**: Rio de Janeiro, Brasil
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🏔️ Manifesto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> "Acreditamos que cada organização merece subir ao seu ponto mais alto sem carregar, nas costas, o peso dos processos operacionais. Somos os Sherpas Digitais que libertam líderes e times para focarem no que realmente importa: construir cultura, inspirar pessoas e criar resultados que transformam."
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Feito com ❤️ pelos Sherpas no Brasil** 🇧🇷
