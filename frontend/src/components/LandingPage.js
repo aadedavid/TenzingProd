@@ -63,7 +63,7 @@ const LandingPage = () => {
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          onClick={() => window.open('https://wa.me/5521988341245', '_blank')}
+          onClick={() => window.open('https://wa.me/5521986697419', '_blank')}
           className="bg-gradient-to-r from-green-500 to-green-600 text-white p-4 rounded-full shadow-2xl hover:shadow-green-500/25 transition-all duration-300"
         >
           <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
