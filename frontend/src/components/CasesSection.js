@@ -69,33 +69,34 @@ const CasesSection = ({ language }) => {
       cases: [
         {
           icon: Building,
-          company: "SaaS Fintech - 150 employees",
-          challenge: "CEO spent 4h/day on HR processes and couldn't focus on product strategy",
-          solution: "Implemented Clara for wellbeing, Açuana for development and Atlas for insights",
+          company: "Foodtech Startup - 5 employees",
+          challenge: "During Black Friday, the CEO needed to handle the sales peak, but the team was overwhelmed and the WhatsApp channel was crashing with demand. The professional responsible for customer service was the same one taking care of order operations.",
+          solution: "We implemented the Sales and Service Sherpa, an AI trained for intelligent WhatsApp interactions, focusing on agility, personalization and conversion.",
           results: [
-            "CEO recovered 3 daily hours for strategy",
-            "35% improvement in internal NPS",
-            "50% reduction in voluntary turnover",
-            "Product launch accelerated by 2 months"
+            "200% increase in WhatsApp sales",
+            "Active and responsive 24/7 service without hiring anyone",
+            "Real professional redirected to operations, speeding up deliveries",
+            "Smoother and frictionless buying experience"
           ],
-          testimonial: "I can finally focus on what I do best: leading and innovating. Our Sherpas take care of everything that used to take me out of the game.",
-          author: "Fintech CEO",
-          color: "from-blue-500 to-cyan-500"
+          testimonial: "Our AI became part of the team. We sold twice as much without hiring anyone — and those who were in the fire are now taking care of the kitchen with mastery.",
+          author: "Foodtech CEO",
+          color: "from-orange-500 to-red-500"
         },
         {
           icon: Users,
-          company: "Consulting - 80 people",
-          challenge: "HR manager overwhelmed with manual processes and demotivated team",
-          solution: "Martina for employee experience and Guardian for automatic compliance",
+          company: "Functional Studios Network - 5 units",
+          challenge: "With each new unit, the owner needed to hire one more employee just to handle online and in-person service. This generated fixed costs, overload and low scalability.",
+          solution: "We activated the Service Sherpa to handle scheduling, frequent questions, trial class booking and automated lead screening.",
           results: [
-            "70% reduction in HR tickets",
-            "100% automated compliance",
-            "40% increase in engagement",
-            "HR focused on strategic projects"
+            "Reduction from 2 to 1 professional per unit",
+            "55% increase in trial classes scheduled",
+            "Instant and standardized service across all units",
+            "Lead conversion increased by 30%",
+            "More team time for humanized service and closing"
           ],
-          testimonial: "I went from 'firefighter' mode to strategist. Our team has never been so motivated and aligned.",
-          author: "Head of HR",
-          color: "from-green-500 to-emerald-500"
+          testimonial: "AI became my right hand at reception. Now my team can focus on what matters: taking care of people inside the studio.",
+          author: "Studios network founder",
+          color: "from-blue-500 to-cyan-500"
         },
         {
           icon: Heart,
