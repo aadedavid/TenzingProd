@@ -56,8 +56,8 @@ const ContactSection = ({ language }) => {
       contact: {
         title: "Outras Formas de Contato",
         phone: "+55 (21) 98834-1245",
-        email: "basecamp@tenzing.ai",
-        address: "Rio de Janeiro, Brasil"
+        email: "contato@tenzing.com.br",
+        address: "Remoto - onde você estiver"
       }
     },
     en: {
