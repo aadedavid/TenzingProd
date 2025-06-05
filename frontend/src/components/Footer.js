@@ -270,7 +270,7 @@ const Footer = ({ language }) => {
               <div className="flex items-center space-x-4">
                 <motion.button
                   whileHover={{ scale: 1.1 }}
-                  onClick={() => window.open('https://wa.me/5521988341245', '_blank')}
+                  onClick={() => window.open('https://wa.me/5521986697419', '_blank')}
                   className="text-slate-400 hover:text-green-400 transition-colors"
                 >
                   <MessageCircle size={20} />
