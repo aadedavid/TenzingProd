@@ -19,7 +19,7 @@ const HeroSection = ({ language }) => {
     en: {
       problem: "Stop carrying the heavy backpack of operational processes.",
       solution: "Our Digital Sherpas free you to reach the summit.",
-      subheadline: "We are specialized guides who carry all the operational burden of your HR and management, so you can focus on what really matters: leading, inspiring and creating transformative results.",
+      subheadline: "We are specialized guides who carry all the operational burden of your HR and management, review and simplify processes, so you can focus on what really matters: leading, inspiring and creating behavioral changes that generate transformative results.",
       stats: {
         efficiency: "30% less time on administrative processes",
         availability: "24/7 service via WhatsApp", 
