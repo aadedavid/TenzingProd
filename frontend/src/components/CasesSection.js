@@ -13,33 +13,34 @@ const CasesSection = ({ language }) => {
       cases: [
         {
           icon: Building,
-          company: "Fintech SaaS - 150 colaboradores",
-          challenge: "CEO gastava 4h/dia em processos de RH e não conseguia focar na estratégia de produto",
-          solution: "Implementamos Clara para bem-estar, Açuana para desenvolvimento e Atlas para insights",
+          company: "Startup Foodtech - 5 funcionários",
+          challenge: "Durante a Black Friday, o CEO precisava lidar com o pico de vendas, mas o time estava sobrecarregado e o canal de WhatsApp travava com a demanda. O profissional responsável pelo atendimento era o mesmo que cuidava da operação dos pedidos.",
+          solution: "Implementamos a Sherpa de Vendas e Atendimento, uma IA treinada para interações inteligentes via WhatsApp, com foco em agilidade, personalização e conversão.",
           results: [
-            "CEO recuperou 3h diárias para estratégia",
-            "35% melhoria no NPS interno",
-            "Redução de 50% em turnover voluntário",
-            "Lançamento de produto acelerado em 2 meses"
+            "Aumento de 200% nas vendas via WhatsApp",
+            "Atendimento ativo e responsivo 24/7 sem contratar ninguém",
+            "Profissional real redirecionado para a operação, agilizando entregas",
+            "Experiência de compra mais fluida e sem fricções"
           ],
-          testimonial: "Finalmente posso focar no que sei fazer: liderar e inovar. Nossos Sherpas cuidam de tudo que antes me tirava do jogo.",
-          author: "CEO da Fintech",
-          color: "from-blue-500 to-cyan-500"
+          testimonial: "Nossa IA virou parte do time. Vendemos o dobro sem contratar ninguém — e quem estava no fogo agora está cuidando da cozinha com maestria.",
+          author: "CEO da Foodtech",
+          color: "from-orange-500 to-red-500"
         },
         {
           icon: Users,
-          company: "Consultoria - 80 pessoas",
-          challenge: "Gestora de RH sobrecarregada com processos manuais e equipe desmotivada",
-          solution: "Martina para experiência do colaborador e Guardiã para compliance automático",
+          company: "Rede de Estúdios Funcionais - 5 unidades",
+          challenge: "A cada nova unidade, o dono precisava contratar mais um colaborador só para dar conta do atendimento online e presencial. Isso gerava custo fixo, sobrecarga e baixa escalabilidade.",
+          solution: "Ativamos a Sherpa de Atendimento para lidar com agendamentos, dúvidas frequentes, marcação de aulas experimentais e triagem automatizada dos leads.",
           results: [
-            "70% redução em tickets de RH",
-            "Compliance 100% automatizado",
-            "Aumento de 40% em engajamento",
-            "RH focou em projetos estratégicos"
+            "Redução de 2 para 1 profissional por unidade",
+            "Aumento de 55% nas aulas experimentais marcadas",
+            "Atendimento instantâneo e padronizado em todas as unidades",
+            "Conversão de leads aumentou em 30%",
+            "Mais tempo da equipe para atendimento humanizado e fechamento"
           ],
-          testimonial: "Saí do modo 'bombeiro' para estrategista. Nossa equipe nunca esteve tão motivada e alinhada.",
-          author: "Head de RH",
-          color: "from-green-500 to-emerald-500"
+          testimonial: "A IA virou meu braço direito na recepção. Agora minha equipe pode focar no que importa: cuidar das pessoas dentro do estúdio.",
+          author: "Fundador da rede de estúdios",
+          color: "from-blue-500 to-cyan-500"
         },
         {
           icon: Heart,
