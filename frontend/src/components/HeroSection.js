@@ -35,7 +35,7 @@ const HeroSection = ({ language }) => {
   };
 
   const handleSherpaWhatsApp = () => {
-    window.open('https://wa.me/5521988341245', '_blank');
+    window.open('https://wa.me/5521986697419', '_blank');
   };
 
   return (
