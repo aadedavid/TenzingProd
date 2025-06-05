@@ -130,7 +130,7 @@ Gostaria de agendar uma conversa para entender como os Sherpas Digitais podem aj
   };
 
   const handleQuickActions = {
-    sherpa: () => window.open('https://wa.me/5521988341245', '_blank'),
+    sherpa: () => window.open('https://wa.me/5521986697419', '_blank'),
     demo: () => window.open('https://calendar.app.google/pug4TSYUPhiMCvzo6', '_blank'),
     clara: () => window.open('https://wa.me/5551995243454', '_blank')
   };
