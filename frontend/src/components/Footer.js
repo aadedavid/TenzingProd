@@ -52,8 +52,8 @@ const Footer = ({ language }) => {
       contact: {
         title: "Basecamp Central",
         phone: "+55 (21) 98834-1245",
-        email: "basecamp@tenzing.ai",
-        address: "Rio de Janeiro, Brasil"
+        email: "contato@tenzing.com.br",
+        address: "Remoto - onde você estiver"
       },
       cta: {
         title: "Pronto para Liberar Sua Organização?",
