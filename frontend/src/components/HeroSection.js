@@ -7,7 +7,7 @@ const HeroSection = ({ language }) => {
     pt: {
       problem: "Pare de carregar a mochila pesada dos processos operacionais.",
       solution: "Nossos Sherpas Digitais liberam você para chegar ao topo.",
-      subheadline: "Somos guias especializados que carregam toda a carga operacional do seu RH e gestão, para que você foque no que realmente importa: liderar, inspirar e criar resultados transformadores.",
+      subheadline: "Somos guias especializados que carregam toda a carga operacional do seu RH e gestão, revisam e simplificam processos, para que você foque no que realmente importa: liderar, inspirar e criar mudanças comportamentais que geram resultados transformadores.",
       stats: {
         efficiency: "30% menos tempo em processos administrativos",
         availability: "Atendimento 24/7 via WhatsApp",
