@@ -155,7 +155,7 @@ const DigitalSherpas = ({ language }) => {
     const message = language === 'pt' 
       ? `Olá! Gostaria de saber mais sobre o Sherpa ${sherpaName}.`
       : `Hello! I'd like to know more about ${sherpaName} Sherpa.`;
-    window.open(`https://wa.me/${whatsapp}?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/5521986697419?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
