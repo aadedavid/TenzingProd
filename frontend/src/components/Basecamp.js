@@ -12,19 +12,8 @@ const Basecamp = ({ language }) => {
       subtitle: "A equipe de especialistas que treina e coordena seus Sherpas Digitais",
       members: [
         {
-          name: "Alexandre Dedavid",
-          role: "Sherpa-Chefe de Tecnologia",
-          specialty: "Arquiteto dos Sherpas Digitais",
-          image: "https://images.pexels.com/photos/32294411/pexels-photo-32294411.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
-          description: "20+ anos escalando montanhas tecnológicas. Especialista em IA, dados e arquitetura de produtos que automatizam o impossível.",
-          expertise: ["IA Generativa", "Arquitetura de Dados", "Product Management"],
-          linkedin: "https://www.linkedin.com/in/aadedavid/",
-          icon: Code,
-          contribution: "Constrói a inteligência por trás de cada Sherpa Digital"
-        },
-        {
           name: "Andréa Krug", 
-          role: "Sherpa-Chefe de Expedições",
+          role: "CEO & Co-fundadora",
           specialty: "Mestre em Jornadas Organizacionais",
           image: "https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
           description: "35 anos guiando organizações por terrenos complexos. Transformou culturas em startups e corporações na América Latina.",
@@ -32,6 +21,17 @@ const Basecamp = ({ language }) => {
           linkedin: "https://www.linkedin.com/in/andrea-krug/",
           icon: Mountain,
           contribution: "Mapeia as rotas de transformação organizacional"
+        },
+        {
+          name: "Fabio Makita",
+          role: "Sherpa-Chefe de Inovação",
+          specialty: "Estrategista de Expedições Corporativas",
+          image: "https://images.pexels.com/photos/17311570/pexels-photo-17311570.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
+          description: "24 anos criando novos caminhos no ecossistema brasileiro. Criou o primeiro Corporate VC do país e conecta startups a grandes corporações.",
+          expertise: ["Corporate Innovation", "Venture Capital", "Estratégia de Negócios"],
+          linkedin: "https://www.linkedin.com/in/fabiomakitakiyan/",
+          icon: Lightbulb,
+          contribution: "Desenha estratégias inovadoras para cada expedição"
         },
         {
           name: "Carolina Giachini",
@@ -45,15 +45,15 @@ const Basecamp = ({ language }) => {
           contribution: "Garante que cada Sherpa tenha inteligência emocional"
         },
         {
-          name: "Fabio Makita",
-          role: "Sherpa-Chefe de Inovação",
-          specialty: "Estrategista de Expedições Corporativas",
-          image: "https://images.pexels.com/photos/17311570/pexels-photo-17311570.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
-          description: "24 anos criando novos caminhos no ecossistema brasileiro. Criou o primeiro Corporate VC do país e conecta startups a grandes corporações.",
-          expertise: ["Corporate Innovation", "Venture Capital", "Estratégia de Negócios"],
-          linkedin: "https://www.linkedin.com/in/fabiomakitakiyan/",
-          icon: Lightbulb,
-          contribution: "Desenha estratégias inovadoras para cada expedição"
+          name: "Alexandre Dedavid",
+          role: "Sherpa-Chefe de Tecnologia",
+          specialty: "Arquiteto dos Sherpas Digitais",
+          image: "https://images.pexels.com/photos/32294411/pexels-photo-32294411.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
+          description: "20+ anos escalando montanhas tecnológicas. Especialista em IA, dados e arquitetura de produtos que automatizam o impossível.",
+          expertise: ["IA Generativa", "Arquitetura de Dados", "Product Management"],
+          linkedin: "https://www.linkedin.com/in/aadedavid/",
+          icon: Code,
+          contribution: "Constrói a inteligência por trás de cada Sherpa Digital"
         },
         {
           name: "Guilherme Krug",
