@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Linkedin, ExternalLink } from 'lucide-react';
+import teamImages from '../teamImages';
 
 const Team = ({ language }) => {
   const ref = useRef(null);
