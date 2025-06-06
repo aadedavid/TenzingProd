@@ -33,7 +33,7 @@ const Team = ({ language }) => {
         {
           name: "Carolina Giachini",
           role: "CPO & Co-fundadora", 
-          image: "https://images.pexels.com/photos/29598524/pexels-photo-29598524.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
+          image: teamImages.carol,
           description: "Consultora há mais de 5 anos em saúde mental com base em neurociência, estresse e ansiedade. Atuação em escolas e empresas, com foco no desenvolvimento humano e socioemocional.",
           expertise: ["Mental Health", "Neuroscience", "Human Development"],
           linkedin: "https://www.linkedin.com/in/carolina-giachini-b36344239/",
