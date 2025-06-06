@@ -125,7 +125,7 @@ ${formData.message}
 
 Gostaria de agendar uma conversa para entender como os Sherpas Digitais podem ajudar nossa organização.`;
     
-    const whatsappUrl = `https://wa.me/5521988341245?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5521986697419?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
