@@ -75,7 +75,7 @@ const Team = ({ language }) => {
         {
           name: "Andréa Krug",
           role: "CEO & Co-founder", 
-          image: "https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
+          image: teamImages.andrea,
           description: "Professional with over 35 years in HR, with 20 in executive positions. Strategic work in Latin America, with experience in startups, closures and major mergers.",
           expertise: ["Strategic HR", "Leadership", "Organizational Change"],
           linkedin: "https://www.linkedin.com/in/andrea-krug/",
