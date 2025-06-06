@@ -1,0 +1,21 @@
+# Dockerfile para Backend
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Instalar dependências
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Copiar código
+COPY backend/ ./backend/
+COPY main.py .
+
+# Variáveis de ambiente
+ENV MONGO_URL="mongodb+srv://EmergentTenzing@admin:PassEmergTenz987@mongoclusteremergent.1zh6lmp.mongodb.net/"
+ENV DB_NAME="tenzing_production"
+ENV PORT=8000
+
+EXPOSE 8000
+
+CMD ["python", "main.py"]
