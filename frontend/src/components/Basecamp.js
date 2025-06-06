@@ -12,41 +12,8 @@ const Basecamp = ({ language }) => {
       subtitle: "A equipe de especialistas que treina e coordena seus Sherpas Digitais",
       members: [
         {
-          name: "Andréa Krug", 
-          role: "CEO & Co-fundadora",
-          specialty: "Mestre em Jornadas Organizacionais",
-          image: "https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
-          description: "35 anos guiando organizações por terrenos complexos. Transformou culturas em startups e corporações na América Latina.",
-          expertise: ["Gestão Estratégica", "Transformação Cultural", "Liderança"],
-          linkedin: "https://www.linkedin.com/in/andrea-krug/",
-          icon: Mountain,
-          contribution: "Mapeia as rotas de transformação organizacional"
-        },
-        {
-          name: "Fabio Makita",
-          role: "Sherpa-Chefe de Inovação",
-          specialty: "Estrategista de Expedições Corporativas",
-          image: "https://images.pexels.com/photos/17311570/pexels-photo-17311570.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
-          description: "24 anos criando novos caminhos no ecossistema brasileiro. Criou o primeiro Corporate VC do país e conecta startups a grandes corporações.",
-          expertise: ["Corporate Innovation", "Venture Capital", "Estratégia de Negócios"],
-          linkedin: "https://www.linkedin.com/in/fabiomakitakiyan/",
-          icon: Lightbulb,
-          contribution: "Desenha estratégias inovadoras para cada expedição"
-        },
-        {
-          name: "Carolina Giachini",
-          role: "Sherpa-Chefe de Bem-Estar",
-          specialty: "Especialista em Saúde Mental Digital",
-          image: "https://images.pexels.com/photos/29598524/pexels-photo-29598524.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
-          description: "Neuropsicóloga que une ciência comportamental com tecnologia empática. Co-fundadora da Equinox, pioneira em saúde mental corporativa.",
-          expertise: ["Neurociência", "Saúde Mental", "Psicologia Organizacional"],
-          linkedin: "https://www.linkedin.com/in/carolina-giachini-b36344239/",
-          icon: Brain,
-          contribution: "Garante que cada Sherpa tenha inteligência emocional"
-        },
-        {
           name: "Alexandre Dedavid",
-          role: "Sherpa-Chefe de Tecnologia",
+          role: "Head de Tech & Co-Founder",
           specialty: "Arquiteto dos Sherpas Digitais",
           image: "https://images.pexels.com/photos/32294411/pexels-photo-32294411.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
           description: "20+ anos escalando montanhas tecnológicas. Especialista em IA, dados e arquitetura de produtos que automatizam o impossível.",
@@ -56,8 +23,41 @@ const Basecamp = ({ language }) => {
           contribution: "Constrói a inteligência por trás de cada Sherpa Digital"
         },
         {
+          name: "Andréa Krug", 
+          role: "Head de People & Co-Founder",
+          specialty: "Mestre em Jornadas Organizacionais",
+          image: "https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
+          description: "35 anos guiando organizações por terrenos complexos. Transformou culturas em startups e corporações na América Latina.",
+          expertise: ["Gestão Estratégica", "Transformação Cultural", "Liderança"],
+          linkedin: "https://www.linkedin.com/in/andrea-krug/",
+          icon: Mountain,
+          contribution: "Mapeia as rotas de transformação organizacional"
+        },
+        {
+          name: "Carolina Giachini",
+          role: "Head de Wellness & Co-Founder",
+          specialty: "Especialista em Saúde Mental Digital",
+          image: "https://images.pexels.com/photos/29598524/pexels-photo-29598524.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
+          description: "Neuropsicóloga que une ciência comportamental com tecnologia empática. Co-fundadora da Equinox, pioneira em saúde mental corporativa.",
+          expertise: ["Neurociência", "Saúde Mental", "Psicologia Organizacional"],
+          linkedin: "https://www.linkedin.com/in/carolina-giachini-b36344239/",
+          icon: Brain,
+          contribution: "Garante que cada Sherpa tenha inteligência emocional"
+        },
+        {
+          name: "Fabio Makita",
+          role: "Head de Innovation & Co-Founder",
+          specialty: "Estrategista de Expedições Corporativas",
+          image: "https://images.pexels.com/photos/17311570/pexels-photo-17311570.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
+          description: "24 anos criando novos caminhos no ecossistema brasileiro. Criou o primeiro Corporate VC do país e conecta startups a grandes corporações.",
+          expertise: ["Corporate Innovation", "Venture Capital", "Estratégia de Negócios"],
+          linkedin: "https://www.linkedin.com/in/fabiomakitakiyan/",
+          icon: Lightbulb,
+          contribution: "Desenha estratégias inovadoras para cada expedição"
+        },
+        {
           name: "Guilherme Krug",
-          role: "Sherpa-Chefe de Compliance",
+          role: "Head de Compliance & Legal",
           specialty: "Guardião das Normas de Montanha",
           image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMG1hbiUyMHN1aXQlMjB0aWV8ZW58MHx8fHwxNzQ4ODc0MDgzfDA&ixlib=rb-4.1.0&q=85&w=300&h=300&fit=crop&crop=face",
           description: "23 anos navegando terrenos jurídicos complexos. Especialista em compliance, LGPD e estruturação de operações que respeitam todas as normas.",
