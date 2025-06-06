@@ -84,7 +84,7 @@ const Team = ({ language }) => {
         {
           name: "Carolina Giachini",
           role: "CPO & Co-founder",
-          image: "https://images.pexels.com/photos/29598524/pexels-photo-29598524.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face", 
+          image: teamImages.carol, 
           description: "Consultant for over 5 years in mental health based on neuroscience, stress and anxiety. Work in schools and companies, focusing on human and socioemotional development.",
           expertise: ["Mental Health", "Neuroscience", "Human Development"],
           linkedin: "https://www.linkedin.com/in/carolina-giachini-b36344239/",
