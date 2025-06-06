@@ -66,7 +66,7 @@ const Team = ({ language }) => {
         {
           name: "Alexandre Dedavid",
           role: "CTO & Co-founder",
-          image: "https://images.pexels.com/photos/32294411/pexels-photo-32294411.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
+          image: teamImages.dedavid,
           description: "Professional with over 20 years in technology, BI and product management, with executive experience in data and analytics in global companies. Data strategy consultant with international experience.",
           expertise: ["Data Strategy", "Business Intelligence", "Product Management"],
           linkedin: "https://www.linkedin.com/in/aadedavid/",
