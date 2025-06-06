@@ -2,7 +2,7 @@
 
 ## 🚂 RAILWAY - Variáveis de Ambiente:
 ```
-MONGO_URL=mongodb+srv://EmergentTenzing@admin:PassEmergTenz987@mongoclusteremergent.1zh6lmp.mongodb.net/
+MONGO_URL=mongodb+srv://EmergentTenzing%40admin:PassEmergTenz987@mongoclusteremergent.1zh6lmp.mongodb.net/
 DB_NAME=tenzing_production
 PORT=8000
 ```
