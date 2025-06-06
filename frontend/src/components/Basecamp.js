@@ -77,41 +77,8 @@ const Basecamp = ({ language }) => {
       subtitle: "The team of specialists who train and coordinate your Digital Sherpas",
       members: [
         {
-          name: "Andréa Krug",
-          role: "CEO & Co-founder",
-          specialty: "Master of Organizational Journeys",
-          image: "https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
-          description: "35 years guiding organizations through complex terrains. Transformed cultures in startups and corporations across Latin America.",
-          expertise: ["Strategic Management", "Cultural Transformation", "Leadership"],
-          linkedin: "https://www.linkedin.com/in/andrea-krug/",
-          icon: Mountain,
-          contribution: "Maps organizational transformation routes"
-        },
-        {
-          name: "Fabio Makita",
-          role: "Chief Innovation Sherpa",
-          specialty: "Corporate Expedition Strategist",
-          image: "https://images.pexels.com/photos/17311570/pexels-photo-17311570.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
-          description: "24 years creating new paths in the Brazilian ecosystem. Created the country's first Corporate VC and connects startups to large corporations.",
-          expertise: ["Corporate Innovation", "Venture Capital", "Business Strategy"],
-          linkedin: "https://www.linkedin.com/in/fabiomakitakiyan/",
-          icon: Lightbulb,
-          contribution: "Designs innovative strategies for each expedition"
-        },
-        {
-          name: "Carolina Giachini",
-          role: "Chief Wellbeing Sherpa",
-          specialty: "Digital Mental Health Specialist",
-          image: "https://images.pexels.com/photos/29598524/pexels-photo-29598524.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
-          description: "Neuropsychologist who combines behavioral science with empathetic technology. Co-founder of Equinox, pioneer in corporate mental health.",
-          expertise: ["Neuroscience", "Mental Health", "Organizational Psychology"],
-          linkedin: "https://www.linkedin.com/in/carolina-giachini-b36344239/",
-          icon: Brain,
-          contribution: "Ensures each Sherpa has emotional intelligence"
-        },
-        {
           name: "Alexandre Dedavid",
-          role: "Chief Technology Sherpa",
+          role: "Head de Tech & Co-Founder",
           specialty: "Digital Sherpas Architect",
           image: "https://images.pexels.com/photos/32294411/pexels-photo-32294411.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
           description: "20+ years climbing technological mountains. Expert in AI, data and product architecture that automates the impossible.",
@@ -121,8 +88,41 @@ const Basecamp = ({ language }) => {
           contribution: "Builds the intelligence behind each Digital Sherpa"
         },
         {
+          name: "Andréa Krug",
+          role: "Head de People & Co-Founder",
+          specialty: "Master of Organizational Journeys",
+          image: "https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
+          description: "35 years guiding organizations through complex terrains. Transformed cultures in startups and corporations across Latin America.",
+          expertise: ["Strategic Management", "Cultural Transformation", "Leadership"],
+          linkedin: "https://www.linkedin.com/in/andrea-krug/",
+          icon: Mountain,
+          contribution: "Maps organizational transformation routes"
+        },
+        {
+          name: "Carolina Giachini",
+          role: "Head de Wellness & Co-Founder",
+          specialty: "Digital Mental Health Specialist",
+          image: "https://images.pexels.com/photos/29598524/pexels-photo-29598524.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
+          description: "Neuropsychologist who combines behavioral science with empathetic technology. Co-founder of Equinox, pioneer in corporate mental health.",
+          expertise: ["Neuroscience", "Mental Health", "Organizational Psychology"],
+          linkedin: "https://www.linkedin.com/in/carolina-giachini-b36344239/",
+          icon: Brain,
+          contribution: "Ensures each Sherpa has emotional intelligence"
+        },
+        {
+          name: "Fabio Makita",
+          role: "Head de Innovation & Co-Founder",
+          specialty: "Corporate Expedition Strategist",
+          image: "https://images.pexels.com/photos/17311570/pexels-photo-17311570.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
+          description: "24 years creating new paths in the Brazilian ecosystem. Created the country's first Corporate VC and connects startups to large corporations.",
+          expertise: ["Corporate Innovation", "Venture Capital", "Business Strategy"],
+          linkedin: "https://www.linkedin.com/in/fabiomakitakiyan/",
+          icon: Lightbulb,
+          contribution: "Designs innovative strategies for each expedition"
+        },
+        {
           name: "Guilherme Krug",
-          role: "Chief Compliance Sherpa",
+          role: "Head de Compliance & Legal",
           specialty: "Guardian of Mountain Rules",
           image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMG1hbiUyMHN1aXQlMjB0aWV8ZW58MHx8fHwxNzQ4ODc0MDgzfDA&ixlib=rb-4.1.0&q=85&w=300&h=300&fit=crop&crop=face",
           description: "23 years navigating complex legal terrains. Expert in compliance, GDPR and structuring operations that respect all regulations.",
