@@ -102,7 +102,7 @@ const Team = ({ language }) => {
         {
           name: "Guilherme Krug",
           role: "Chief Legal Officer",
-          image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMG1hbiUyMHN1aXQlMjB0aWV8ZW58MHx8fHwxNzQ4ODc0MDgzfDA&ixlib=rb-4.1.0&q=85&w=300&h=300&fit=crop&crop=face",
+          image: teamImages.gui,
           description: "Lawyer with 23 years of experience in large companies and law firms. Specialist in civil law, labor law, compliance, GDPR and team management.",
           expertise: ["Corporate Law", "Compliance", "LGPD/GDPR"],
           linkedin: "https://www.linkedin.com/in/guilhermekrug/",
