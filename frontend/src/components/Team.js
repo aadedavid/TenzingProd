@@ -93,7 +93,7 @@ const Team = ({ language }) => {
         {
           name: "Fabio Makita",
           role: "Chief Innovation Officer",
-          image: "https://images.pexels.com/photos/17311570/pexels-photo-17311570.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop&crop=face",
+          image: teamImages.makita,
           description: "Executive with 24 years of experience in technological innovation and new business development. Worked on creating Brazil's first Corporate Venture Capital and led startup programs.",
           expertise: ["Innovation", "Corporate Venture", "Technology Strategy"],
           linkedin: "https://www.linkedin.com/in/fabiomakitakiyan/",
