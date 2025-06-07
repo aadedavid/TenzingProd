@@ -15,7 +15,7 @@ const Basecamp = ({ language }) => {
           name: "Alexandre Dedavid",
           role: "Head de Tech & Co-Founder",
           specialty: "Arquiteto dos Sherpas Digitais",
-          image: "https://drive.google.com/uc?export=view&id=1ytvlRF5g8iSF2E9kYtCYVQV4EWU73FWW",
+          image: "./assets/dedavid.jpg",
           description: "20+ anos escalando montanhas tecnológicas. Especialista em IA, dados e arquitetura de produtos que automatizam o impossível.",
           expertise: ["IA Generativa", "Arquitetura de Dados", "Product Management"],
           linkedin: "https://www.linkedin.com/in/aadedavid/",
